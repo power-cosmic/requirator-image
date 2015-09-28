@@ -4,8 +4,6 @@
   "description": "An image plugin for requirator",
   "main": "./lib/requirator-image.js",
   "scripts": {
-    "test": "_mocha tests",
-    "preversion": "npm test",
     "postversion": "git push && git push --tags"
   },
   "repository": {
